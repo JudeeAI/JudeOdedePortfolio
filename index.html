@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude Odede — Software Engineer & Frontend Developer</title>
+    <meta name="description" content="Jude Odede is a Senior Software Engineer specializing in React, Next.js, and Flutter. 140+ projects, 50+ global clients, Top-Rated on Upwork.">
+    <meta name="theme-color" content="#080A0F">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+
+    <div id="cursor-glow"></div>
+
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                JUDE<span class="dot">•</span><span class="logo-suffix">ODEDE</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#about" class="nav-link"><span>01.</span>about</a>
+                <a href="#skills" class="nav-link"><span>02.</span>skills</a>
+                <a href="#work" class="nav-link"><span>03.</span>work</a>
+                <a href="#experience" class="nav-link"><span>04.</span>experience</a>
+                <a href="#contact" class="nav-link"><span>05.</span>contact</a>
+            </nav>
+
+            <a href="#contact" class="btn btn-terminal nav-cta">Hire me &rarr;</a>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="nav-link mobile-link"><span>01.</span>about</a>
+        <a href="#skills" class="nav-link mobile-link"><span>02.</span>skills</a>
+        <a href="#work" class="nav-link mobile-link"><span>03.</span>work</a>
+        <a href="#experience" class="nav-link mobile-link"><span>04.</span>experience</a>
+        <a href="#contact" class="nav-link mobile-link"><span>05.</span>contact</a>
+    </div>
+
+    <section id="hero">
+        <div class="hero-bg-text">JUDE</div>
+        <div class="container hero-grid" id="about">
+            <div class="hero-content">
+                <div class="hero-availability reveal">
+                    available for new projects
+                </div>
+                <h1 class="heading-hero hero-title">
+                    <span class="reveal delay-100" style="display:block;">Jude</span>
+                    <span class="reveal delay-200" style="display:block;">Odede.</span>
+                </h1>
+                <p class="hero-desc text-lg reveal delay-300">
+                    Senior Software Engineer crafting exceptional web and mobile experiences. React · Next.js · Flutter. 140+ projects shipped across 50+ clients worldwide.
+                </p>
+                <div class="hero-ctas reveal delay-400">
+                    <a href="#work" class="btn btn-primary">View My Work &darr;</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+                
+                <div class="hero-stats reveal delay-500">
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="140">0</span>
+                        <span class="stat-label">Projects Shipped</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="50">0</span>
+                        <span class="stat-label">Global Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="100" data-suffix="%">0</span>
+                        <span class="stat-label">Upwork Job Success</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="7" data-suffix="+">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal delay-200">
+                <div class="code-card">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="code-title">jude@portfolio:~$</span>
+                    </div>
+                    <div class="code-body">
+<pre>
+<span class="syn-kw">const</span> <span class="syn-prop">engineer</span> = {
+  <span class="syn-prop">name</span>:     <span class="syn-str">"Jude Odede"</span>,
+  <span class="syn-prop">role</span>:     <span class="syn-str">"Senior Software Engineer"</span>,
+  <span class="syn-prop">stack</span>:    [<span class="syn-str">"React"</span>, <span class="syn-str">"Next.js"</span>, <span class="syn-str">"Flutter"</span>,
+             <span class="syn-str">"TypeScript"</span>, <span class="syn-str">"Dart"</span>],
+  <span class="syn-prop">clients</span>:  <span class="syn-str">"50+ worldwide"</span>,
+  <span class="syn-prop">projects</span>: <span class="syn-num">140</span>,
+  <span class="syn-prop">passion</span>:  <span class="syn-str">"building things that matter"</span>,
+  <span class="syn-prop">status</span>:   <span class="syn-str">"✦ Open to opportunities"</span>
+}<span class="syn-cursor">|</span>
+</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <span class="section-label reveal">// 02 · skills</span>
+            <h2 class="heading-section reveal delay-100">What I Build</h2>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+                <div class="skill-card reveal delay-100">
+                    <div class="skill-icon">&lt; /&gt;</div>
+                    <h3 class="skill-title">Frontend Development</h3>
+                    <span class="skill-subtitle">React · Next.js · TypeScript</span>
+                    <p class="skill-body">Over 5 years delivering performant, accessible interfaces. From complex SPAs and PWAs to micro-frontends and design systems.</p>
+                    <div class="skill-tags">
+                        <span class="tech-tag">React</span><span class="tech-tag">Next.js</span><span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">JavaScript</span><span class="tech-tag">HTML/CSS</span><span class="tech-tag">Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal delay-200">
+                    <div class="skill-icon">◱</div>
+                    <h3 class="skill-title">Mobile Development</h3>
+                    <span class="skill-subtitle">Flutter · Dart · iOS · Android</span>
+                    <p class="skill-body">Building cross-platform hybrid apps with Flutter, delivering native-quality experiences on both iOS and Android from a single codebase.</p>
+                    <div class="skill-tags">
+                        <span class="tech-tag">Flutter</span><span class="tech-tag">Dart</span><span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Android</span><span class="tech-tag">PWA</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal delay-300">
+                    <div class="skill-icon">{ }</div>
+                    <h3 class="skill-title">Software Engineering</h3>
+                    <span class="skill-subtitle">Python · Java · System Design</span>
+                    <p class="skill-body">Experienced in OOP and functional paradigms. Designed scalable architectures for Travel Tech, Healthcare, and Events platforms.</p>
+                    <div class="skill-tags">
+                        <span class="tech-tag">Python</span><span class="tech-tag">Java</span><span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">REST APIs</span><span class="tech-tag">System Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <span class="section-label reveal">// 03 · work</span>
+            
+            <div class="work-header reveal delay-100">
+                <div>
+                    <h2 class="heading-section" style="margin-bottom: 16px;">Selected Projects</h2>
+                    <p class="text-secondary" style="max-width: 600px;">Deployed scalable travel, event, and telemedicine solutions for 50+ clients worldwide.</p>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="data">Data</button>
+                </div>
+            </div>
+
+            <article class="featured-project reveal delay-200" data-category="mobile">
+                <div class="feat-info">
+                    <span class="feat-label">★ Featured Project</span>
+                    <h3 class="feat-title">Tryotel</h3>
+                    <span class="feat-type">Cross-Platform Travel App · Flutter · React</span>
+                    <p class="project-desc">Deployed a scalable B2C and B2B travel platform with cross-platform mobile app, delivering bookings, live availability, and user dashboards to thousands of travellers.</p>
+                    <div class="skill-tags" style="margin-bottom: 32px;">
+                        <span class="tech-tag">Flutter</span><span class="tech-tag">React</span><span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Travel Tech</span>
+                    </div>
+                    <a href="#" class="btn btn-terminal" style="width: max-content;">View Project &rarr;</a>
+                </div>
+                <div class="feat-visual"></div>
+            </article>
+
+            <div class="grid md:grid-cols-2 grid-cols-1" style="margin-top: 40px;" id="project-grid">
+                
+                <article class="project-card reveal" data-category="web">
+                    <div class="project-img grad-1" data-title="FLIGHT"></div>
+                    <div class="project-body">
+                        <span class="project-cat">Web Development</span>
+                        <h3 class="project-title">Flight Local</h3>
+                        <p class="project-desc">B2B Travel Solution built as a full travel tech platform.</p>
+                        <div class="skill-tags">
+                            <span class="tech-tag">React</span><span class="tech-tag">B2B</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal delay-100" data-category="web">
+                    <div class="project-img grad-2" data-title="AILAB"></div>
+                    <div class="project-body">
+                        <span class="project-cat">Web Development</span>
+                        <h3 class="project-title">AI Lab Granada</h3>
+                        <p class="project-desc">Research platform UI for an AI laboratory in Spain.</p>
+                        <div class="skill-tags">
+                            <span class="tech-tag">Next.js</span><span class="tech-tag">Tailwind</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="web">
+                    <div class="project-img grad-3" data-title="SPA"></div>
+                    <div class="project-body">
+                        <span class="project-cat">Web Development</span>
+                        <h3 class="project-title">Kananaskis Nordic Spa</h3>
+                        <p class="project-desc">Premium spa resort website with booking integration.</p>
+                        <div class="skill-tags">
+                            <span class="tech-tag">React</span><span class="tech-tag">Booking API</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal delay-100" data-category="mobile">
+                    <div class="project-img grad-4" data-title="TAPY"></div>
+                    <div class="project-body">
+                        <span class="project-cat">Mobile-First Web</span>
+                        <h3 class="project-title">Tapy</h3>
+                        <p class="project-desc">Mobile-first product landing page (Download. Connect. Unlock).</p>
+                        <div class="skill-tags">
+                            <span class="tech-tag">HTML/CSS</span><span class="tech-tag">JS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="data">
+                    <div class="project-img grad-5" data-title="ROADS"></div>
+                    <div class="project-body">
+                        <span class="project-cat">Data Visualization</span>
+                        <h3 class="project-title">All the Roads of Chittagong</h3>
+                        <p class="project-desc">Interactive road network visualization mapping urban paths.</p>
+                        <div class="skill-tags">
+                            <span class="tech-tag">D3.js</span><span class="tech-tag">Canvas</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>&rarr;</span></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <span class="section-label reveal">// 04 · experience</span>
+            <h2 class="heading-section reveal delay-100">Professional Journey</h2>
+
+            <div class="timeline">
+                
+                <div class="timeline-entry reveal">
+                    <span class="exp-year">2019 — 2024</span>
+                    <h3 class="exp-role">Senior Lead Software Engineer</h3>
+                    <h4 class="exp-company">Saimon Global Ltd</h4>
+                    <span class="exp-loc">Dhaka, Bangladesh</span>
+                    <p class="exp-desc">Led a frontend team to design and develop robust B2C and B2B Travel Tech solutions. Utilized React/Next.js for web applications and Flutter SDK for cross-platform mobile apps. Focused on responsive design, scalability, and enhanced user experience.</p>
+                    <div class="skill-tags">
+                        <span class="tech-tag">JS</span><span class="tech-tag">TS</span><span class="tech-tag">Dart</span>
+                        <span class="tech-tag">React</span><span class="tech-tag">Next.js</span><span class="tech-tag">Flutter</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry reveal">
+                    <span class="exp-year">2018 — 2019</span>
+                    <h3 class="exp-role">Web Developer</h3>
+                    <h4 class="exp-company">influenceTHIS Canada</h4>
+                    <span class="exp-loc">Remote · Toronto, Canada</span>
+                    <p class="exp-desc">Developed the complete UI/UX ecosystem for a conference event platform using modular component architecture with JS, SCSS, and Gulp on Node.js.</p>
+                    <div class="skill-tags">
+                        <span class="tech-tag">JavaScript</span><span class="tech-tag">SCSS</span><span class="tech-tag">Gulp</span><span class="tech-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="timeline-entry reveal">
+                    <span class="exp-year">2017 — Present</span>
+                    <h3 class="exp-role">Top-Rated Freelance Developer</h3>
+                    <h4 class="exp-company">Upwork</h4>
+                    <span class="exp-loc">Remote · Global</span>
+                    <p class="exp-desc" style="margin-bottom: 16px;">Top-Rated developer on Upwork specializing in Frontend (React, WordPress) with a 100% job success rate. 150+ jobs completed, 2500+ hours billed.</p>
+                    <div class="exp-badge">★ 100% Job Success · 150+ Jobs</div>
+                    <div class="skill-tags">
+                        <span class="tech-tag">JavaScript</span><span class="tech-tag">PHP</span><span class="tech-tag">React</span><span class="tech-tag">WordPress</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <span class="section-label reveal">// 05 · testimonials</span>
+            <h2 class="heading-section reveal delay-100">What Clients Say</h2>
+
+            <div class="testimonials-wrapper">
+                
+                <div class="test-card reveal">
+                    <div class="test-quote-mark">"</div>
+                    <p class="test-text">"Since 2018 Jude has been responsible for the development of our website which has been instrumental to the growth of our company. Highly responsive, organized and strategic. A highly valued and impactful member of our team."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">MG</div>
+                        <div class="test-info">
+                            <h4>Mark Greenspan</h4>
+                            <span>Founder, influenceTHIS Canada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-card reveal delay-100">
+                    <div class="test-quote-mark">"</div>
+                    <p class="test-text">"Jude is AMAZING! If you have any doubt about hiring him, ask me — I am really impressed by this guy!"</p>
+                    <div class="test-author">
+                        <div class="test-avatar">WH</div>
+                        <div class="test-info">
+                            <h4>Wilfried Hajek</h4>
+                            <span>Agile Coach | Speaker | Trainer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-card reveal delay-200">
+                    <div class="test-quote-mark">"</div>
+                    <p class="test-text">"Jude is one of the best professionals we have known in web development. Outstanding communication and accuracy with planning in complex projects."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">JC</div>
+                        <div class="test-info">
+                            <h4>Jonathan Castro</h4>
+                            <span>CEO & Founder, The Cliff</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <span class="section-label reveal">// 06 · contact</span>
+            <div class="contact-grid">
+                
+                <div class="reveal">
+                    <h2 class="heading-section" style="margin-bottom: 16px;">Let's Build Something</h2>
+                    <p class="text-secondary">Available for select freelance opportunities and full-time roles. Whether you have a project in mind, a role to fill, or just want to connect — I'd love to hear from you.</p>
+                    
+                    <div class="hero-availability" style="margin-top: 24px;">
+                        <span style="background: #27C93F; box-shadow: 0 0 10px #27C93F; border-radius: 50%; width: 8px; height: 8px; display: inline-block;"></span>
+                        <span style="color: #27C93F;">Available for new projects</span>
+                    </div>
+
+                    <div class="contact-methods">
+                        <a href="mailto:hello@judeodede.dev" class="contact-method">
+                            <span>&#9993;</span> Email: hello@judeodede.dev
+                        </a>
+                        <a href="#" class="contact-method">
+                            <span>&#8599;</span> Upwork: Top-Rated Profile
+                        </a>
+                        <a href="#" class="contact-method">
+                            <span>&#8984;</span> LinkedIn: linkedin.com/in/judeodede
+                        </a>
+                        <a href="#" class="contact-method">
+                            <span>{ }</span> GitHub: github.com/judeodede
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reveal delay-200" id="form-container">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group" id="group-name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe">
+                            <span class="form-error">Please enter at least 3 characters.</span>
+                        </div>
+                        <div class="form-group" id="group-email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="john@example.com">
+                            <span class="form-error">Please enter a valid email address.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" class="form-control">
+                                <option>Web Development</option>
+                                <option>Mobile App</option>
+                                <option>Full-Stack</option>
+                                <option>Consulting</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="group-message">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Tell me about your project..."></textarea>
+                            <span class="form-error">Message must be at least 10 characters long.</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message &rarr;</button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess">
+                        <div class="code-card" style="box-shadow: none;">
+                            <div class="code-header"><span class="code-title">terminal</span></div>
+                            <div class="code-body">
+                                > Message sent successfully.<br>
+                                > I'll get back to you shortly.<span class="syn-cursor">|</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="#" class="logo">JUDE<span class="dot">•</span><span class="logo-suffix" style="font-size: 14px;">ODEDE</span></a>
+                    <span class="footer-copy">&copy; 2026 Jude Odede. All rights reserved.</span>
+                </div>
+                
+                <div class="footer-nav">
+                    <a href="#about">about</a>
+                    <a href="#skills">skills</a>
+                    <a href="#work">work</a>
+                    <a href="#experience">experience</a>
+                    <a href="#contact">contact</a>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="" aria-label="GitHub">&#128187;</a>
+                    <a href="#" aria-label="LinkedIn">&#128188;</a>
+                    <a href="#" aria-label="Upwork">&#9992;</a>
+                </div>
+            </div>
+            
+            <p class="footer-easter">// built with passion · and a lot of coffee &#9749;</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
